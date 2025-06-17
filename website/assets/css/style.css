@@ -1,8 +1,51 @@
-body{
+body {
     background: white;
 }
+
 .tagline {
+
+    position: relative;
     background-image: url("/website/assets/img/bg.jpg");
-    height: 800px;
-    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido{
+    
+    
+    position: relative;
+    color: black;
+    text-align: center;
+}
+
+.tagline-h1 {
+    
+    background: white;
+    font-size: 6rem;
+    font-weight: 800;
+    margin-bottom: 10rem;
+    
+}
+
+;
+
+.tagline-h2 {
+
+    background: white;
+    font-size: 4rem;
+    font-weight: 600
+    
+}
+
+@media (max-width: 768px) {
+    .tagline-h1 {
+        font-size: 4.7rem;
+    }
+
+    .tagline-h2 {
+        font-size: calc(4rem + .3vw);
+    }
 }
