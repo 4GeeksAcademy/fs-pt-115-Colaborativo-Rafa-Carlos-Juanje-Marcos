@@ -1,3 +1,8 @@
 body{
     background: white;
 }
+.tagline {
+    background-image: url("/website/assets/img/bg.jpg");
+    height: 800px;
+    background-size: cover;
+}
